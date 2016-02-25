@@ -1,8 +1,8 @@
-const-eps-float64
+EPSILON
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][build-image]][build-url] [![Coverage Status][coverage-image]][coverage-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> Difference between one and the smallest value greater than one that can be represented as a double-precision floating-point number.
+> Difference between one and the smallest value greater than one that can be represented as a [double-precision floating-point number][ieee754].
 
 
 ## Installation
@@ -15,65 +15,31 @@ $ npm install const-eps-float64
 ## Usage
 
 ``` javascript
-var foo = require( 'const-eps-float64' );
+var FLOAT64_EPSILON = require( 'const-eps-float64' );
 ```
 
-#### foo()
+#### FLOAT64_EPSILON
 
-What does `foo` do?
+Difference between one and the smallest value greater than one that can be represented as a [double-precision floating-point number][ieee754].
 
 ``` javascript
-foo()
-// returns `undefined`
+FLOAT64_EPSILON === 2.220446049250313e-16;
 ```
-
-
-## Notes
-
-*	First note.
 
 
 ## Examples
 
 ``` javascript
-var foo = require( 'const-eps-float64' );
+var FLOAT64_EPSILON = require( 'const-eps-float64' );
+
+console.log( FLOAT64_EPSILON );
+// returns 2.220446049250313e-16
 ```
 
 To run the example code from the top-level application directory,
 
 ``` bash
 $ node ./examples/index.js
-```
-
-
----
-## CLI
-
-### Installation
-
-To use the module as a general utility, install the module globally
-
-``` bash
-$ npm install -g const-eps-float64
-```
-
-
-### Usage
-
-``` bash
-
-```
-
-
-### Notes
-
-* 	First note
-
-
-### Examples
-
-``` bash
-$
 ```
 
 
@@ -155,3 +121,5 @@ Copyright &copy; 2016. The [Compute.io][compute-io] Authors.
 [tape]: https://github.com/substack/tape
 [istanbul]: https://github.com/gotwarlost/istanbul
 [testling]: https://ci.testling.com
+
+[ieee754]: https://en.wikipedia.org/wiki/IEEE_754-1985
