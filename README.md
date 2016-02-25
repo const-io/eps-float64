@@ -4,10 +4,14 @@ EPSILON
 
 > Difference between one and the smallest value greater than one that can be represented as a [double-precision floating-point number][ieee754].
 
+[Epsilon][machine-epsilon] is defined as
+
 <div class="equation" align="center" data-raw-text="\epsilon = b^{-(p-1)}" data-equation="eq:epsilon_float64">
 	<img src="https://cdn.rawgit.com/const-io/eps-float64/db8caf39c4d60b67a8e6fe2fbe04820088e55479/docs/img/epsilon.svg" alt="Epsilon for a double-precision floating-point number.">
 	<br>
 </div>
+
+where `b` is the radix (base) and `p` is the precision (number of radix bits in the significand). For [double-precision floating-point numbers][ieee754], `b` is `2` and `p` is `53`.
 
 
 ## Installation
@@ -129,3 +133,4 @@ Copyright &copy; 2016. The [Compute.io][compute-io] Authors.
 
 [ieee754]: https://en.wikipedia.org/wiki/IEEE_754-1985
 [compute-io]: https://github.com/compute-io
+[machine-epsilon]: https://en.wikipedia.org/wiki/Machine_epsilon
