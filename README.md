@@ -4,6 +4,11 @@ EPSILON
 
 > Difference between one and the smallest value greater than one that can be represented as a [double-precision floating-point number][ieee754].
 
+<div class="equation" align="center" data-raw-text="" data-equation="eq:epsilon_float64">
+	<img src="" alt="Epsilon for a double-precision floating-point number.">
+	<br>
+</div>
+
 
 ## Installation
 
