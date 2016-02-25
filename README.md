@@ -123,3 +123,4 @@ Copyright &copy; 2016. The [Compute.io][compute-io] Authors.
 [testling]: https://ci.testling.com
 
 [ieee754]: https://en.wikipedia.org/wiki/IEEE_754-1985
+[compute-io]: https://github.com/compute-io
